@@ -15,10 +15,10 @@ def relation():
             elif "rel_id" in line :
                 line = line.split('>')
                 ids.append(line[1])
-            elif "rel_help" in line :
+            elif "rel_name" in line :
                 line = line.split('>')
-                line[1] = line[1].split('-')
-                line[1] = line[1][0]
+                #line[1] = line[1].split('-')
+                #line[1] = line[1][0]
                 descriptions.append(line[1])
 
     relations=[]
