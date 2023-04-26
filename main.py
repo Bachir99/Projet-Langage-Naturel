@@ -32,7 +32,6 @@ if True:
     createTxt(ent,True,"") #je cherche les mots entrants du mot cible
     createJSON(ent,True,"")
     dataEnt = getData(ent,True,"")
-    #idCommuns = getIdCommuns(data,dataEnt,idEnt,idMot)
     
     #Voir si la relation existe entre les 2 entités
     #relation directe
